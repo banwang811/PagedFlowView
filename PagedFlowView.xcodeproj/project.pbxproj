@@ -167,6 +167,11 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = Taobao.com;
+				TargetAttributes = {
+					A3FB09081504D92500EE9194 = {
+						DevelopmentTeam = 4P5HC62PN9;
+					};
+				};
 			};
 			buildConfigurationList = A3FB09031504D92500EE9194 /* Build configuration list for PBXProject "PagedFlowView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -285,9 +290,11 @@
 		A3FB09281504D92600EE9194 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4P5HC62PN9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PagedFlowView/PagedFlowView-Prefix.pch";
 				INFOPLIST_FILE = "PagedFlowView/PagedFlowView-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banwang811.PagedFlowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -296,9 +303,11 @@
 		A3FB09291504D92600EE9194 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4P5HC62PN9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PagedFlowView/PagedFlowView-Prefix.pch";
 				INFOPLIST_FILE = "PagedFlowView/PagedFlowView-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banwang811.PagedFlowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
