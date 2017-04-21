@@ -170,6 +170,7 @@
 				TargetAttributes = {
 					A3FB09081504D92500EE9194 = {
 						DevelopmentTeam = 4P5HC62PN9;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -290,6 +291,7 @@
 		A3FB09281504D92600EE9194 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4P5HC62PN9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PagedFlowView/PagedFlowView-Prefix.pch";
@@ -297,6 +299,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.banwang811.PagedFlowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c8967dcf-2ab8-4e3f-833b-e0a2a7800f8e";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -304,6 +307,7 @@
 		A3FB09291504D92600EE9194 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4P5HC62PN9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PagedFlowView/PagedFlowView-Prefix.pch";
@@ -311,6 +315,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.banwang811.PagedFlowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c8967dcf-2ab8-4e3f-833b-e0a2a7800f8e";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
