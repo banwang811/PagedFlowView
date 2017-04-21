@@ -169,7 +169,7 @@
 				ORGANIZATIONNAME = Taobao.com;
 				TargetAttributes = {
 					A3FB09081504D92500EE9194 = {
-						DevelopmentTeam = 4P5HC62PN9;
+						DevelopmentTeam = DV7AL7ZZ3G;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -292,14 +292,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4P5HC62PN9;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DV7AL7ZZ3G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PagedFlowView/PagedFlowView-Prefix.pch";
 				INFOPLIST_FILE = "PagedFlowView/PagedFlowView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.banwang811.PagedFlowView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gqhmt.lcsipad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c8967dcf-2ab8-4e3f-833b-e0a2a7800f8e";
+				PROVISIONING_PROFILE = "d2cca3ca-5197-4eed-a448-774ed97cd469";
+				PROVISIONING_PROFILE_SPECIFIER = dev_lcsIpad_bw;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -308,14 +310,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4P5HC62PN9;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DV7AL7ZZ3G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PagedFlowView/PagedFlowView-Prefix.pch";
 				INFOPLIST_FILE = "PagedFlowView/PagedFlowView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.banwang811.PagedFlowView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gqhmt.lcsipad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c8967dcf-2ab8-4e3f-833b-e0a2a7800f8e";
+				PROVISIONING_PROFILE = "d2cca3ca-5197-4eed-a448-774ed97cd469";
+				PROVISIONING_PROFILE_SPECIFIER = dev_lcsIpad_bw;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
